@@ -2,6 +2,39 @@
 if (!defined('ABSPATH')) {
   exit; // Exit if accessed directly
 }
+// /**
+//  * Inject sequential menu_order into fields array based on array position.
+//  * Used for both import and export to keep JSON array order = DB order.
+//  */
+// function _acf_set_menu_order(array $fields, int $start = 0): array {
+//     $i = $start;
+//     foreach ($fields as &$field) {
+//         $field['menu_order'] = $i++;
+//         foreach (['sub_fields', 'layouts'] as $key) {
+//             if (!empty($field[$key]) && is_array($field[$key])) {
+//                 $field[$key] = _acf_set_menu_order($field[$key]);
+//             }
+//         }
+//     }
+//     return $fields;
+// }
+//
+// // On import: set menu_order from JSON array position → DB respects it
+// add_filter('acf/import/field_group', function (array $field_group): array {
+//     if (!empty($field_group['fields'])) {
+//         $field_group['fields'] = _acf_set_menu_order($field_group['fields']);
+//     }
+//     return $field_group;
+// });
+//
+// // On export: write menu_order per field into JSON → order is explicit in file
+// add_filter('acf/export/field_group', function (array $field_group): array {
+//     if (!empty($field_group['fields'])) {
+//         $field_group['fields'] = _acf_set_menu_order($field_group['fields']);
+//     }
+//     return $field_group;
+// });
+
 if (function_exists('acf_add_options_page')) {
   acf_add_options_page(array(
     'page_title' => 'Acf Settings',
