@@ -1,0 +1,39 @@
+<div class="form__row">
+  <div class="form__group">[text* your-name placeholder "Nome*"]</div>
+  <div class="form__group">[text* your-surname placeholder "Cognome*"]</div>
+</div>
+<div class="form__group">[email* your-email placeholder "Email*"]</div>
+<div class="form__group form__group--textarea">
+  [textarea* your-message placeholder "Messaggio*"]
+</div>
+<div class="form__footer">
+  <div class="form__privacy">
+    [acceptance acceptance-223] Cliccando su invia dichiari di aver preso
+    visione e di accettare la nostra
+    <a
+      href="/privacy-policy/"
+      target="_blank"
+      >privacy policy</a
+    >
+    [/acceptance]
+  </div>
+  [submit class:form__submit "Invia"]
+</div>
+
+<div
+  class="select"
+  data-name="select-427"
+  data-required>
+  <div class="select__current">Tipologia di veicolo</div>
+  <ul class="select__dropdown">
+    <li data-value="Opzione 1">Opzione 1</li>
+    <li data-value="Opzione 2">Opzione 2</li>
+    <li data-value="Opzione 3">Opzione 3</li>
+  </ul>
+  <input
+    type="hidden"
+    name="select-427" />
+  <span class="select__error">Compila questo campo.</span>
+</div>
+
+[_site_title] — Nuova richiesta da [your-name]

@@ -1,0 +1,4 @@
+assets/libs/
+src/scss/blocks/globals/magnific-popup.scss
+src/scss/partials/normalize.scss
+src/scss/partials/mixins.scss

@@ -1,0 +1,17 @@
+@use 'partials/mixins';
+@use 'partials/variables';
+@use 'partials/normalize';
+@use 'partials/base';
+@use 'partials/scrollbar';
+@use 'blocks/globals/magnific-popup';
+@use 'blocks/main-header';
+@use 'blocks/header/main-menu';
+@use 'blocks/header/sandwitch';
+@use 'blocks/main-footer';
+@use 'blocks/privacy-policy';
+@use 'blocks/globals/language';
+@use 'blocks/blog/single-blog-styles';
+@use 'blocks/globals/form';
+@use 'blocks/globals/btn';
+@use "blocks/global/breadcrumbs";
+@use "blocks/form/select";

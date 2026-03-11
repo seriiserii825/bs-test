@@ -1,0 +1,139 @@
+{
+  "plugins": ["stylelint-order"],
+  "extends": ["stylelint-config-standard-scss"],
+  "overrides": [
+    {
+      "files": ["**/*.scss"],
+      "customSyntax": "postcss-scss",
+      "rules": {
+        "color-function-notation": "legacy"
+      }
+    }
+  ],
+  "rules": {
+    "custom-property-pattern": null,
+    "font-family-no-missing-generic-family-keyword": null,
+    "selector-class-pattern": null,
+    "no-descending-specificity": null,
+    "keyframes-name-pattern": null,
+    "selector-pseudo-element-no-unknown": [
+      true,
+      {
+        "ignorePseudoElements": [
+          "webkit-input-placeholder",
+          "moz-placeholder",
+          "ms-input-placeholder"
+        ]
+      }
+    ],
+    "at-rule-empty-line-before": [
+      "always",
+      {
+        "except": ["blockless-after-same-name-blockless", "first-nested"],
+        "ignoreAtRules": ["media"],
+        "ignore": ["after-comment"]
+      }
+    ],
+    "media-feature-range-notation": [
+      "prefix",
+      {
+        "severity": "error"
+      }
+    ],
+    "order/properties-order": [
+      [
+        "content",
+        "position",
+        "top",
+        "left",
+        "right",
+        "bottom",
+        "display",
+        "justify-content",
+        "align-items",
+        "flex-direction",
+        "flex-wrap",
+        "flex-grow",
+        "flex-shrink",
+        "flex-basis",
+        "flex",
+        "align-content",
+        "align-self",
+        "order",
+        "gap",
+        "margin",
+        "margin-top",
+        "margin-right",
+        "margin-bottom",
+        "margin-left",
+        "padding",
+        "padding-top",
+        "padding-right",
+        "padding-bottom",
+        "padding-left",
+        "width",
+        "max-width",
+        "min-width",
+        "height",
+        "max-height",
+        "min-height",
+        "font-family",
+        "font-size",
+        "font-weight",
+        "line-height",
+        "letter-spacing",
+        "text-align",
+        "text-transform",
+        "color",
+        "background",
+        "background-color",
+        "background-image",
+        "background-size",
+        "background-position",
+        "background-repeat",
+        "background-attachment",
+        "border",
+        "border-width",
+        "border-style",
+        "border-color",
+        "border-top",
+        "border-top-width",
+        "border-top-style",
+        "border-top-color",
+        "border-right",
+        "border-right-width",
+        "border-right-style",
+        "border-right-color",
+        "border-bottom",
+        "border-bottom-width",
+        "border-bottom-style",
+        "border-bottom-color",
+        "border-left",
+        "border-left-width",
+        "border-left-style",
+        "border-left-color",
+        "border-radius",
+        "box-shadow",
+        "opacity",
+        "transform",
+        "transition",
+        "overflow",
+        "overflow-x",
+        "overflow-y",
+        "z-index"
+      ],
+      {
+        "unspecified": "bottomAlphabetical"
+      }
+    ],
+    "order/order": [
+      "custom-properties",
+      "declarations",
+      {
+        "type": "at-rule",
+        "name": "include"
+      },
+      "rules"
+    ]
+  }
+}

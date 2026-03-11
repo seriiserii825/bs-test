@@ -1,0 +1,29 @@
+.page-privacy {
+  padding: 12rem 0 8rem;
+}
+
+.page-privacy table {
+  margin-bottom: 30px;
+  border-collapse: collapse;
+}
+
+.page-privacy th {
+  color: white;
+  background-color: #444;
+}
+
+.page-privacy th,
+.page-privacy td {
+  padding: 1rem 2rem;
+  border: 1px solid #aaa;
+}
+
+@media screen and (max-width: 750px) {
+  .page-privacy .overflow-inner {
+    overflow-x: auto;
+  }
+
+  .page-privacy table {
+    width: 750px;
+  }
+}

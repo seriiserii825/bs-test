@@ -1,0 +1,10 @@
+{
+  "pages": [
+    {
+      "id": 2,
+      "title": "Sample Page",
+      "url": "http://lc-api.local/sample-page/",
+      "img": false
+    }
+  ]
+}
