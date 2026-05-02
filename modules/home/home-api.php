@@ -15,8 +15,10 @@ function homeApiCallBack()
 {
   $page_home_id = 2;
   $home_intro = get_field('home_intro', $page_home_id);
+  $about = get_field('about', $page_home_id);
   $response = [
     'home_intro' => $home_intro,
+    'about' => $about,
   ];
   return rest_ensure_response($response);
 }
