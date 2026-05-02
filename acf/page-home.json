@@ -345,6 +345,78 @@
                 "name": "",
                 "aria-label": "",
                 "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 100,
+                    "class": "",
+                    "id": ""
+                },
+                "post_type": "",
+                "message": "",
+                "ui": 0,
+                "default_value": 0,
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_llaxrpjkn4z4z",
+                "label": "Banner",
+                "name": "banner",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 100,
+                    "class": "",
+                    "id": ""
+                },
+                "post_type": "",
+                "message": "",
+                "ui": 0,
+                "default_value": 0,
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_ua7jgsbid6o7n",
+                        "label": "Image",
+                        "name": "image",
+                        "aria-label": "",
+                        "type": "image",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 100,
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": "",
+                        "message": "",
+                        "ui": 0,
+                        "default_value": 0,
+                        "return_format": "array",
+                        "preview_size": "medium",
+                        "library": "all",
+                        "min_width": 0,
+                        "min_height": 0,
+                        "min_size": 0,
+                        "max_width": 0,
+                        "max_height": 0,
+                        "max_size": 0,
+                        "mime_types": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_sf0d72xth2mbq",
+                "label": "Who we are",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
                 "post_type": "",
                 "instructions": "",
                 "required": 0,
@@ -361,9 +433,9 @@
                 "endpoint": 0
             },
             {
-                "key": "field_llaxrpjkn4z4z",
-                "label": "Banner",
-                "name": "banner",
+                "key": "field_4oueownsoeec2",
+                "label": "Who we are",
+                "name": "who_we_are",
                 "aria-label": "",
                 "type": "group",
                 "post_type": "",
@@ -381,11 +453,11 @@
                 "layout": "block",
                 "sub_fields": [
                     {
-                        "key": "field_ua7jgsbid6o7n",
-                        "label": "Image",
-                        "name": "image",
+                        "key": "field_nw5ozmc269zan",
+                        "label": "Title",
+                        "name": "title",
                         "aria-label": "",
-                        "type": "image",
+                        "type": "text",
                         "post_type": "",
                         "instructions": "",
                         "required": 0,
@@ -397,8 +469,26 @@
                         },
                         "message": "",
                         "ui": 0,
-                        "default_value": 0,
-                        "return_format": "array"
+                        "default_value": 0
+                    },
+                    {
+                        "key": "field_9xcr4u4w5a43o",
+                        "label": "Text",
+                        "name": "text",
+                        "aria-label": "",
+                        "type": "textarea",
+                        "post_type": "",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 100,
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "ui": 0,
+                        "default_value": 0
                     }
                 ]
             }
