@@ -2,6 +2,7 @@ export interface IHomeResponse {
   home_intro: IHomeIntro;
   about: IAbout;
   banner: IBanner;
+  brand: IBrand;
 }
 export interface IHomeIntro {
   title: string;
@@ -15,6 +16,10 @@ export interface IAbout {
   button_text: string;
 }
 export interface IBanner {
+  image: Image;
+}
+export interface IBrand {
+  title: string;
   image: Image;
 }
 export interface IItem {

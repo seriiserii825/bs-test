@@ -5,6 +5,7 @@ import { IHomeResponse } from '@/modules/home/IHomeResponse';
 import HomeIntro from '@/modules/home-intro/HomeIntro.vue';
 import About from '@/modules/about/About.vue';
 import Banner from '@/modules/banner/Banner.vue';
+import Brand from '@/modules/brand/Brand.vue';
 
 const home = ref<IHomeResponse | null>(null);
 
@@ -24,4 +25,7 @@ onMounted(async () => {
   <Banner
     v-if="home && home.banner"
     :banner="home.banner" />
+  <Brand
+    v-if="home && home.brand"
+    :brand="home.brand" />
 </template>

@@ -1,0 +1,41 @@
+.brand {
+  padding: 8rem 0;
+
+  @media screen and (max-width: 768px) {
+    padding: 6rem 0;
+  }
+
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 4rem;
+    font-family: var(--font-1);
+    color: var(--text-color);
+    line-height: 1.2;
+    text-align: center;
+
+    @media screen and (max-width: 768px) {
+      font-size: 3rem;
+    }
+  }
+
+  &__image {
+    width: 100%;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+}

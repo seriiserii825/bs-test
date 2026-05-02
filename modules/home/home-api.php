@@ -17,10 +17,12 @@ function homeApiCallBack()
   $home_intro = get_field('home_intro', $page_home_id);
   $about = get_field('about', $page_home_id);
   $banner = get_field('banner', $page_home_id);
+  $brand = get_field('brand', $page_home_id);
   $response = [
     'home_intro' => $home_intro,
     'about' => $about,
     'banner' => $banner,
+    'brand' => $brand,
   ];
   return rest_ensure_response($response);
 }
