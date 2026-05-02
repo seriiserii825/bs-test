@@ -1,6 +1,7 @@
 import { Component, createApp } from 'vue';
-import SearchView from './views/SearchView.vue';
-createVueApp('#vueSearch', SearchView);
+import HomeView from './components/HomeView.vue';
+// createVueApp('#vueSearch', SearchView);
+createVueApp('#vueHome', HomeView);
 
 function createVueApp(id: string, component: Component) {
   if (document.querySelector(id)) {

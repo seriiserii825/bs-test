@@ -13,6 +13,12 @@
 // }
 
 
+add_shortcode('vue-home', 'vueHome');
+
+function vueHome()
+{
+  return "<div id='vueHome'></div>";
+}
 
 add_shortcode('vue-search', 'vueSearch');
 

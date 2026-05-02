@@ -13,7 +13,8 @@ include "inc/inc.vite.php";
 // include_once __DIR__ . '/vendor/autoload.php';
 require_once __DIR__ . '/src/vue/vue-functions.php';
 
-require_once __DIR__ . '/api/search-api.php';
+// require_once __DIR__ . '/api/search-api.php';
+require_once __DIR__ . '/api/home-api.php';
 
 // require_once __DIR__ . '/Api/call-api.php';
 // require_once __DIR__ . '/Api/single-immobile-meta.php';

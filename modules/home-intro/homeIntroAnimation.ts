@@ -11,6 +11,6 @@ export default function homeIntroAnimation() {
   const tl = gsap.timeline({ defaults: { ease: 'power3.out' } });
 
   tl.from(title, { y: 40, opacity: 0, duration: 0.8 })
-    .from(text,  { y: 30, opacity: 0, duration: 0.7 }, '-=0.5')
+    .from(text, { y: 30, opacity: 0, duration: 0.7 }, '-=0.5')
     .from(image, { x: 40, opacity: 0, duration: 0.9 }, '-=0.6');
 }
