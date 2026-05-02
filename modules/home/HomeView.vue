@@ -4,6 +4,7 @@ import { axiosInstance } from '@/src/vue/utils/axios-instances';
 import { IHomeResponse } from '@/modules/home/IHomeResponse';
 import HomeIntro from '@/modules/home-intro/HomeIntro.vue';
 import About from '@/modules/about/About.vue';
+import Banner from '@/modules/banner/Banner.vue';
 
 const home = ref<IHomeResponse | null>(null);
 
@@ -20,4 +21,7 @@ onMounted(async () => {
   <About
     v-if="home && home.about"
     :about="home.about" />
+  <Banner
+    v-if="home && home.banner"
+    :banner="home.banner" />
 </template>

@@ -1,6 +1,7 @@
 export interface IHomeResponse {
   home_intro: IHomeIntro;
   about: IAbout;
+  banner: IBanner;
 }
 export interface IHomeIntro {
   title: string;
@@ -12,6 +13,9 @@ export interface IAbout {
   text: string;
   items: IItem[];
   button_text: string;
+}
+export interface IBanner {
+  image: Image;
 }
 export interface IItem {
   image: Image;
