@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { PropType } from 'vue';
-import { IHomeIntro } from '../../interfaces/IHomeResponse';
+import { IHomeIntro } from '@/modules/home/IHomeResponse';
 
 const props = defineProps({
   homeIntro: {

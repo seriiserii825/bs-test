@@ -1,5 +1,5 @@
 import { Component, createApp } from 'vue';
-import HomeView from './components/HomeView.vue';
+import HomeView from '@/modules/home/HomeView.vue';
 // createVueApp('#vueSearch', SearchView);
 createVueApp('#vueHome', HomeView);
 

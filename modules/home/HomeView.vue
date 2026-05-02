@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
-import { axiosInstance } from '../utils/axios-instances';
-import { IHomeResponse } from '../interfaces/IHomeResponse';
-import HomeIntro from './home/HomeIntro.vue';
+import { axiosInstance } from '@/src/vue/utils/axios-instances';
+import { IHomeResponse } from '@/modules/home/IHomeResponse';
+import HomeIntro from '@/modules/home-intro/HomeIntro.vue';
 
 const home = ref<IHomeResponse | null>(null);
 
