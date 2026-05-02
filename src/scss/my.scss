@@ -13,8 +13,8 @@
 @use 'blocks/blog/single-blog-styles';
 @use 'blocks/globals/form';
 @use 'blocks/globals/btn';
-@use "blocks/global/breadcrumbs";
-@use "blocks/form/select";
+@use 'blocks/global/breadcrumbs';
+@use 'blocks/form/select';
 
 // modules
-@use "../../../modules/home-intro/home-intro";
+@use '@/modules/home-intro/home-intro';
