@@ -2,7 +2,7 @@
 import { PropType } from 'vue';
 import { IAbout } from '@/modules/home/IHomeResponse';
 
-const props = defineProps({
+defineProps({
   about: {
     type: Object as PropType<IAbout>,
     required: true

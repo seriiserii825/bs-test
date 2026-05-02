@@ -28,7 +28,8 @@ export default [
       'vue/html-self-closing': 'off',
       'vue/html-closing-bracket-newline': 'off',
       'vue/html-closing-bracket-spacing': 'off',
-      'vue/html-indent': 'off'
+      'vue/html-indent': 'off',
+      'vue/singleline-html-element-content-newline': 'off'
     }
   },
   {

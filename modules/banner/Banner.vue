@@ -2,7 +2,7 @@
 import { PropType } from 'vue';
 import { IBanner } from '../home/IHomeResponse';
 
-const props = defineProps({
+defineProps({
   banner: {
     type: Object as PropType<IBanner>,
     required: true

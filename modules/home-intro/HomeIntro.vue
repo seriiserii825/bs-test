@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { PropType } from 'vue';
-import { IHomeIntro } from '@/modules/home/IHomeResponse';
+import { IHomeIntro } from '../home/IHomeResponse';
 
-const props = defineProps({
+defineProps({
   homeIntro: {
     type: Object as PropType<IHomeIntro>,
     required: true
