@@ -3,14 +3,15 @@ import '../vue/vue-app.js';
 import fixedHeader from './modules/header/fixed-header';
 import { initOnPresence, TMounts } from './modules/helpers/mount.js';
 import { mainMenu } from './modules/menu';
+import whoWeAreAnimation from '@/modules/who-we-are/whoWeAreAnimation.js';
 
 document.addEventListener('DOMContentLoaded', function () {
   mainMenu();
   fixedHeader();
-  homeIntroAnimation();
   // streetMap();
   const mounts: TMounts[] = [
-    // { selector: '.animation', callback: gsapAnimation, min_width: 992 },
+    { selector: '.home-intro', callback: homeIntroAnimation, min_width: 992 },
+    { selector: '.who-we-are', callback: whoWeAreAnimation, min_width: 992 }
   ];
 
   initOnPresence(mounts);
