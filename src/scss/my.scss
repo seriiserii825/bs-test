@@ -15,3 +15,6 @@
 @use 'blocks/globals/btn';
 @use "blocks/global/breadcrumbs";
 @use "blocks/form/select";
+
+// modules
+@use "../../../modules/home-intro/home-intro";
