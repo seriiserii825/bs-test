@@ -3,6 +3,7 @@ import { onMounted, ref } from 'vue';
 import { axiosInstance } from '@/src/vue/utils/axios-instances';
 import { IHomeResponse } from '@/modules/home/IHomeResponse';
 import HomeIntro from '@/modules/home-intro/HomeIntro.vue';
+import About from '@/modules/about/About.vue';
 
 const home = ref<IHomeResponse | null>(null);
 
@@ -16,4 +17,7 @@ onMounted(async () => {
   <HomeIntro
     v-if="home && home.home_intro"
     :home-intro="home.home_intro" />
+  <About
+    v-if="home && home.about"
+    :about="home.about" />
 </template>

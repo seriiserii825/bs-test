@@ -1,5 +1,6 @@
 export interface IHomeResponse {
   home_intro: IHomeIntro;
+  about: IAbout;
 }
 export interface IHomeIntro {
   title: string;
