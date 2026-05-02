@@ -107,7 +107,7 @@ export default defineConfig({
 
 function copyCssWithoutHash() {
   return {
-    name: 'copy-css-without-hash',
+    name: 'copy-css-without-build',
     closeBundle() {
       const cssDir = path.resolve(__dirname, 'dist/css');
       if (!fs.existsSync(cssDir)) return;

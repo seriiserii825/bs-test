@@ -10,10 +10,10 @@ WordPress theme (`bs-vite`) built with Vue 3 + Vite. The theme uses Vite for bun
 
 ```bash
 # Development (starts Vite HMR dev server on localhost:3000)
-yarn dev        # also runs predev: flips vite_dev flag in functions.php to true
+yarn dev        # predev: flips vite_dev flag in functions.php + patches vite.config.js and inc/inc.vite.php
 
 # Production build (runs type-check, eslint, stylelint before building)
-yarn build      # also runs prebuild: flips vite_dev flag to false
+yarn build      # prebuild: flips vite_dev flag to false, then stylelint/vue-tsc/eslint
 
 # Watch mode (build without HMR)
 yarn watch
@@ -26,6 +26,10 @@ yarn lint           # ESLint
 yarn lint:fix       # ESLint with auto-fix
 yarn format:scss    # Stylelint SCSS auto-fix
 yarn type:check     # vue-tsc --noEmit
+
+# Dependency management
+yarn clean      # removes node_modules and all lock files
+yarn restart    # clean + install + dev
 ```
 
 **Note:** `yarn dev` and `yarn build` automatically toggle the `$vite_dev` variable in `functions.php` via `sed`. Do not manually edit this flag.
@@ -48,15 +52,29 @@ The single JS entry point is `main.ts`, which imports `src/scss/my.scss` and `sr
 
 ### PHP Structure
 
-- `functions.php` — loads all `inc/*.php` modules
+- `functions.php` — loads all `inc/*.php` modules; `$footer_page_id` is a hardcoded page ID set here
 - `inc/` — theme utilities (ACF, images, search API, URL rewrites, Vite integration)
+- `inc/project-variables.php` — API keys/auth tokens used by external integrations
 - `shortcodes/` — simple shortcodes for company info (name, address, phone, email, VAT)
-- `acf/` — ACF field group JSON exports (import via admin → Custom Fields → Tools → Import)
-- `api/search-api.php` — custom REST API endpoint for search, consumed by `src/vue/`
+- `acf/` — ACF field group JSON exports (import via admin → Custom Fields → Tools → Import). `inc/acf.php` adds import/export filters that auto-assign `menu_order` from JSON array position, keeping field order stable across roundtrips.
+- `api/search-api.php` — custom REST API: `GET /wp-json/page/v1/search?title={query}`. Schema available at `/wp-json/page/v1/search/schema`.
+- `schemas/` — JSON Schema files for the search API contract (source of truth for PHP↔Vue data shape)
+- `assets/libs/` — legacy jQuery plugins (slick, swiper, nouislider, etc.) loaded as static files; **not** bundled by Vite
 
 ### Vue Components
 
-Vue is mounted selectively via `src/js/modules/helpers/mount.ts`. The main use case is the search view (`src/vue/views/SearchView.vue`). Pinia is used for state, Vuelidate for form validation, Vue Leaflet for maps.
+Vue is mounted selectively via `src/js/modules/helpers/mount.ts`. The main use case is the search view (`src/vue/views/SearchView.vue`). Pinia is available for state, Vuelidate for form validation, Vue Leaflet for maps.
+
+### Feature Scaffolds
+
+`template-parts/layouts/` contains starter files for adding new page features:
+- `default.php` + `default.vue` — PHP template + Vue component pair
+- `default-interface.ts` — TypeScript types for the feature's data
+- `default-pinia.ts` — Pinia store scaffold
+- `default-hook.ts` — composable/hook scaffold
+- `api-layout.ts` / `js-layout.ts` — API and JS module scaffolds
+
+`src/templates/` contains static HTML reference templates (design prototypes, not served by WordPress).
 
 ### Build Output
 
