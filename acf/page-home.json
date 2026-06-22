@@ -23,8 +23,7 @@
                 "ui": 0,
                 "default_value": 0,
                 "placement": "top",
-                "endpoint": 0,
-                "menu_order": 0
+                "endpoint": 0
             },
             {
                 "key": "field_il3mnnlgyrxhw",
@@ -67,8 +66,7 @@
                         "maxlength": "",
                         "placeholder": "",
                         "prepend": "",
-                        "append": "",
-                        "menu_order": 0
+                        "append": ""
                     },
                     {
                         "key": "field_d8ur5xs0otreu",
@@ -91,8 +89,7 @@
                         "maxlength": "",
                         "placeholder": "",
                         "prepend": "",
-                        "append": "",
-                        "menu_order": 1
+                        "append": ""
                     },
                     {
                         "key": "field_aiu7bd7pmt42v",
@@ -121,11 +118,9 @@
                         "max_width": 0,
                         "max_height": 0,
                         "max_size": 0,
-                        "mime_types": "",
-                        "menu_order": 2
+                        "mime_types": ""
                     }
-                ],
-                "menu_order": 1
+                ]
             },
             {
                 "key": "field_6tbdmketrirp2",
@@ -146,8 +141,7 @@
                 "ui": 0,
                 "default_value": 0,
                 "placement": "top",
-                "endpoint": 0,
-                "menu_order": 2
+                "endpoint": 0
             },
             {
                 "key": "field_t4kvfwkwwaux4",
@@ -190,8 +184,7 @@
                         "maxlength": "",
                         "placeholder": "",
                         "prepend": "",
-                        "append": "",
-                        "menu_order": 0
+                        "append": ""
                     },
                     {
                         "key": "field_xjghoatrycemg",
@@ -214,8 +207,7 @@
                         "maxlength": "",
                         "placeholder": "",
                         "prepend": "",
-                        "append": "",
-                        "menu_order": 1
+                        "append": ""
                     },
                     {
                         "key": "field_dzmer24sxa6pu",
@@ -270,8 +262,7 @@
                                 "max_height": 0,
                                 "max_size": 0,
                                 "mime_types": "",
-                                "parent_repeater": "field_dzmer24sxa6pu",
-                                "menu_order": 0
+                                "parent_repeater": "field_dzmer24sxa6pu"
                             },
                             {
                                 "key": "field_s5hljqq8wwbxv",
@@ -295,8 +286,7 @@
                                 "placeholder": "",
                                 "prepend": "",
                                 "append": "",
-                                "parent_repeater": "field_dzmer24sxa6pu",
-                                "menu_order": 1
+                                "parent_repeater": "field_dzmer24sxa6pu"
                             },
                             {
                                 "key": "field_ajjrvomxrfyuc",
@@ -320,11 +310,9 @@
                                 "toolbar": "full",
                                 "media_upload": 1,
                                 "delay": 0,
-                                "parent_repeater": "field_dzmer24sxa6pu",
-                                "menu_order": 2
+                                "parent_repeater": "field_dzmer24sxa6pu"
                             }
-                        ],
-                        "menu_order": 2
+                        ]
                     },
                     {
                         "key": "field_nzuoq2wkatpwp",
@@ -347,11 +335,9 @@
                         "maxlength": "",
                         "placeholder": "",
                         "prepend": "",
-                        "append": "",
-                        "menu_order": 3
+                        "append": ""
                     }
-                ],
-                "menu_order": 3
+                ]
             },
             {
                 "key": "field_wgyafoz69svs4",
@@ -372,8 +358,7 @@
                 "ui": 0,
                 "default_value": 0,
                 "placement": "top",
-                "endpoint": 0,
-                "menu_order": 4
+                "endpoint": 0
             },
             {
                 "key": "field_97il7q3alqljj",
@@ -416,8 +401,7 @@
                         "maxlength": "",
                         "placeholder": "",
                         "prepend": "",
-                        "append": "",
-                        "menu_order": 0
+                        "append": ""
                     },
                     {
                         "key": "field_asoymx9l1eo9i",
@@ -446,11 +430,9 @@
                         "max_width": 0,
                         "max_height": 0,
                         "max_size": 0,
-                        "mime_types": "",
-                        "menu_order": 1
+                        "mime_types": ""
                     }
-                ],
-                "menu_order": 5
+                ]
             },
             {
                 "key": "field_gp2uqlylyxcyu",
@@ -471,8 +453,7 @@
                 "ui": 0,
                 "default_value": 0,
                 "placement": "top",
-                "endpoint": 0,
-                "menu_order": 6
+                "endpoint": 0
             },
             {
                 "key": "field_llaxrpjkn4z4z",
@@ -521,11 +502,9 @@
                         "max_width": 0,
                         "max_height": 0,
                         "max_size": 0,
-                        "mime_types": "",
-                        "menu_order": 0
+                        "mime_types": ""
                     }
-                ],
-                "menu_order": 7
+                ]
             },
             {
                 "key": "field_sf0d72xth2mbq",
@@ -546,8 +525,7 @@
                 "ui": 0,
                 "default_value": 0,
                 "placement": "top",
-                "endpoint": 0,
-                "menu_order": 8
+                "endpoint": 0
             },
             {
                 "key": "field_4oueownsoeec2",
@@ -590,8 +568,7 @@
                         "maxlength": "",
                         "placeholder": "",
                         "prepend": "",
-                        "append": "",
-                        "menu_order": 0
+                        "append": ""
                     },
                     {
                         "key": "field_9xcr4u4w5a43o",
@@ -614,11 +591,9 @@
                         "new_lines": "",
                         "maxlength": "",
                         "placeholder": "",
-                        "rows": "",
-                        "menu_order": 1
+                        "rows": ""
                     }
-                ],
-                "menu_order": 9
+                ]
             }
         ],
         "location": [
