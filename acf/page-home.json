@@ -345,7 +345,6 @@
                 "name": "",
                 "aria-label": "",
                 "type": "tab",
-                "post_type": "",
                 "instructions": "",
                 "required": 0,
                 "conditional_logic": 0,
@@ -354,6 +353,7 @@
                     "class": "",
                     "id": ""
                 },
+                "post_type": "",
                 "message": "",
                 "ui": 0,
                 "default_value": 0,
@@ -366,7 +366,6 @@
                 "name": "brand",
                 "aria-label": "",
                 "type": "group",
-                "post_type": "",
                 "instructions": "",
                 "required": false,
                 "conditional_logic": 0,
@@ -375,6 +374,7 @@
                     "class": "",
                     "id": ""
                 },
+                "post_type": "",
                 "message": "",
                 "ui": 0,
                 "default_value": 0,
@@ -386,7 +386,6 @@
                         "name": "title",
                         "aria-label": "",
                         "type": "text",
-                        "post_type": "",
                         "instructions": "",
                         "required": 0,
                         "conditional_logic": 0,
@@ -395,9 +394,14 @@
                             "class": "",
                             "id": ""
                         },
+                        "post_type": "",
                         "message": "",
                         "ui": 0,
-                        "default_value": 0
+                        "default_value": 0,
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": ""
                     },
                     {
                         "key": "field_asoymx9l1eo9i",
@@ -405,7 +409,6 @@
                         "name": "image",
                         "aria-label": "",
                         "type": "image",
-                        "post_type": "",
                         "instructions": "",
                         "required": 0,
                         "conditional_logic": 0,
@@ -414,10 +417,20 @@
                             "class": "",
                             "id": ""
                         },
+                        "post_type": "",
                         "message": "",
                         "ui": 0,
                         "default_value": 0,
-                        "return_format": "array"
+                        "return_format": "array",
+                        "preview_size": "medium",
+                        "library": "all",
+                        "min_width": 0,
+                        "min_height": 0,
+                        "min_size": 0,
+                        "max_width": 0,
+                        "max_height": 0,
+                        "max_size": 0,
+                        "mime_types": ""
                     }
                 ]
             },
