@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Home Intro",
+        "type": "tab"
+    },
+    {
+        "name": "home_intro",
+        "type": "group",
+        "sub_fields": [
+            {
+                "name": "title",
+                "type": "text"
+            },
+            {
+                "name": "text",
+                "type": "text"
+            },
+            {
+                "name": "image",
+                "type": "image"
+            }
+        ]
+    },
+    {
+        "name": "About",
+        "type": "tab"
+    },
+    {
+        "name": "about",
+        "type": "group",
+        "sub_fields": [
+            {
+                "name": "title",
+                "type": "text"
+            },
+            {
+                "name": "text",
+                "type": "text"
+            },
+            {
+                "name": "items",
+                "type": "repeater",
+                "sub_fields": [
+                    {
+                        "name": "image",
+                        "type": "image"
+                    },
+                    {
+                        "name": "subtitle",
+                        "type": "text"
+                    },
+                    {
+                        "name": "text",
+                        "type": "wysiwyg"
+                    }
+                ]
+            },
+            {
+                "name": "button_text",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "name": "Brand",
+        "type": "tab"
+    },
+    {
+        "name": "brand",
+        "type": "group",
+        "sub_fields": [
+            {
+                "name": "title",
+                "type": "text"
+            },
+            {
+                "name": "image",
+                "type": "image"
+            }
+        ]
+    },
+    {
+        "name": "Banner",
+        "type": "tab"
+    },
+    {
+        "name": "banner",
+        "type": "group",
+        "sub_fields": [
+            {
+                "name": "image",
+                "type": "image"
+            }
+        ]
+    },
+    {
+        "name": "Who we are",
+        "type": "tab"
+    },
+    {
+        "name": "who_we_are",
+        "type": "group",
+        "sub_fields": [
+            {
+                "name": "title",
+                "type": "text"
+            },
+            {
+                "name": "text",
+                "type": "textarea"
+            }
+        ]
+    }
+]

@@ -1,0 +1,131 @@
+[
+    {
+        "ID": false,
+        "key": "group_hej92uu5tuiif",
+        "title": "Single Lesson",
+        "fields": [
+            {
+                "key": "field_ef9dsdytyxoge",
+                "label": "Single Lesson",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "post_type": "",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 100,
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "ui": 0,
+                "default_value": 0,
+                "placement": "top",
+                "endpoint": 0,
+                "menu_order": 0
+            },
+            {
+                "key": "field_lek3qavm8uqdv",
+                "label": "Single Lesson",
+                "name": "single_lesson",
+                "aria-label": "",
+                "type": "group",
+                "post_type": "",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 100,
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "ui": 0,
+                "default_value": 0,
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_9bqjfeai9gy37",
+                        "label": "Title",
+                        "name": "title",
+                        "aria-label": "",
+                        "type": "text",
+                        "post_type": "",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 100,
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "ui": 0,
+                        "default_value": 0
+                    },
+                    {
+                        "key": "field_332iz6xgng3lg",
+                        "label": "Image",
+                        "name": "image",
+                        "aria-label": "",
+                        "type": "text",
+                        "post_type": "",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 100,
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "ui": 0,
+                        "default_value": 0
+                    },
+                    {
+                        "key": "field_ouyqwpgk4y3bb",
+                        "label": "Gallery",
+                        "name": "gallery",
+                        "aria-label": "",
+                        "type": "gallery",
+                        "post_type": "",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 100,
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "ui": 0,
+                        "default_value": 0,
+                        "return_format": "array"
+                    }
+                ],
+                "menu_order": 1
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "lezioni"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0,
+        "_valid": true
+    }
+]

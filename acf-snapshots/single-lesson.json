@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Single Lesson",
+        "type": "tab"
+    },
+    {
+        "name": "single_lesson",
+        "type": "group",
+        "sub_fields": [
+            {
+                "name": "title",
+                "type": "text"
+            },
+            {
+                "name": "image",
+                "type": "text"
+            },
+            {
+                "name": "gallery",
+                "type": "gallery"
+            }
+        ]
+    }
+]
