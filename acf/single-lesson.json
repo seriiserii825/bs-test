@@ -23,7 +23,8 @@
                 "ui": 0,
                 "default_value": 0,
                 "placement": "top",
-                "endpoint": 0
+                "endpoint": 0,
+                "menu_order": 0
             },
             {
                 "key": "field_lek3qavm8uqdv",
@@ -66,7 +67,8 @@
                         "maxlength": "",
                         "placeholder": "",
                         "prepend": "",
-                        "append": ""
+                        "append": "",
+                        "menu_order": 0
                     },
                     {
                         "key": "field_332iz6xgng3lg",
@@ -89,7 +91,8 @@
                         "maxlength": "",
                         "placeholder": "",
                         "prepend": "",
-                        "append": ""
+                        "append": "",
+                        "menu_order": 1
                     },
                     {
                         "key": "field_ouyqwpgk4y3bb",
@@ -121,9 +124,11 @@
                         "max_width": 0,
                         "max_height": 0,
                         "max_size": 0,
-                        "mime_types": ""
+                        "mime_types": "",
+                        "menu_order": 2
                     }
-                ]
+                ],
+                "menu_order": 1
             },
             {
                 "key": "field_jp8hy8jyovtru",
@@ -144,7 +149,8 @@
                 "ui": 0,
                 "default_value": 0,
                 "placement": "top",
-                "endpoint": 0
+                "endpoint": 0,
+                "menu_order": 2
             },
             {
                 "key": "field_xbu8hnfwwo4xe",
@@ -193,7 +199,8 @@
                         "max_width": 0,
                         "max_height": 0,
                         "max_size": 0,
-                        "mime_types": ""
+                        "mime_types": "",
+                        "menu_order": 0
                     },
                     {
                         "key": "field_8xovejrplhy6q",
@@ -216,9 +223,11 @@
                         "new_lines": "",
                         "maxlength": "",
                         "placeholder": "",
-                        "rows": ""
+                        "rows": "",
+                        "menu_order": 1
                     }
-                ]
+                ],
+                "menu_order": 3
             }
         ],
         "location": [
