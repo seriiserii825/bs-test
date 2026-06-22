@@ -20,5 +20,23 @@
                 "type": "gallery"
             }
         ]
+    },
+    {
+        "name": "Lesson Info",
+        "type": "tab"
+    },
+    {
+        "name": "lesson_info",
+        "type": "group",
+        "sub_fields": [
+            {
+                "name": "icon",
+                "type": "image"
+            },
+            {
+                "name": "description",
+                "type": "textarea"
+            }
+        ]
     }
 ]

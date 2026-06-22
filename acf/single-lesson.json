@@ -10,6 +10,132 @@
                 "name": "",
                 "aria-label": "",
                 "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 100,
+                    "class": "",
+                    "id": ""
+                },
+                "post_type": "",
+                "message": "",
+                "ui": 0,
+                "default_value": 0,
+                "placement": "top",
+                "endpoint": 0,
+                "menu_order": 0
+            },
+            {
+                "key": "field_lek3qavm8uqdv",
+                "label": "Single Lesson",
+                "name": "single_lesson",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 100,
+                    "class": "",
+                    "id": ""
+                },
+                "post_type": "",
+                "message": "",
+                "ui": 0,
+                "default_value": 0,
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_9bqjfeai9gy37",
+                        "label": "Title",
+                        "name": "title",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 100,
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": "",
+                        "message": "",
+                        "ui": 0,
+                        "default_value": 0,
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "menu_order": 0
+                    },
+                    {
+                        "key": "field_332iz6xgng3lg",
+                        "label": "Image",
+                        "name": "image",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 100,
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": "",
+                        "message": "",
+                        "ui": 0,
+                        "default_value": 0,
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "menu_order": 1
+                    },
+                    {
+                        "key": "field_ouyqwpgk4y3bb",
+                        "label": "Gallery",
+                        "name": "gallery",
+                        "aria-label": "",
+                        "type": "gallery",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 100,
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": "",
+                        "message": "",
+                        "ui": 0,
+                        "default_value": 0,
+                        "return_format": "array",
+                        "preview_size": "medium",
+                        "insert": "append",
+                        "library": "all",
+                        "min": 0,
+                        "max": 0,
+                        "min_width": 0,
+                        "min_height": 0,
+                        "min_size": 0,
+                        "max_width": 0,
+                        "max_height": 0,
+                        "max_size": 0,
+                        "mime_types": "",
+                        "menu_order": 2
+                    }
+                ],
+                "menu_order": 1
+            },
+            {
+                "key": "field_jp8hy8jyovtru",
+                "label": "Lesson Info",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
                 "post_type": "",
                 "instructions": "",
                 "required": 0,
@@ -24,12 +150,12 @@
                 "default_value": 0,
                 "placement": "top",
                 "endpoint": 0,
-                "menu_order": 0
+                "menu_order": 2
             },
             {
-                "key": "field_lek3qavm8uqdv",
-                "label": "Single Lesson",
-                "name": "single_lesson",
+                "key": "field_xbu8hnfwwo4xe",
+                "label": "Lesson Info",
+                "name": "lesson_info",
                 "aria-label": "",
                 "type": "group",
                 "post_type": "",
@@ -47,49 +173,11 @@
                 "layout": "block",
                 "sub_fields": [
                     {
-                        "key": "field_9bqjfeai9gy37",
-                        "label": "Title",
-                        "name": "title",
+                        "key": "field_ixa9sqekgaxw6",
+                        "label": "Icon",
+                        "name": "icon",
                         "aria-label": "",
-                        "type": "text",
-                        "post_type": "",
-                        "instructions": "",
-                        "required": 0,
-                        "conditional_logic": 0,
-                        "wrapper": {
-                            "width": 100,
-                            "class": "",
-                            "id": ""
-                        },
-                        "message": "",
-                        "ui": 0,
-                        "default_value": 0
-                    },
-                    {
-                        "key": "field_332iz6xgng3lg",
-                        "label": "Image",
-                        "name": "image",
-                        "aria-label": "",
-                        "type": "text",
-                        "post_type": "",
-                        "instructions": "",
-                        "required": 0,
-                        "conditional_logic": 0,
-                        "wrapper": {
-                            "width": 100,
-                            "class": "",
-                            "id": ""
-                        },
-                        "message": "",
-                        "ui": 0,
-                        "default_value": 0
-                    },
-                    {
-                        "key": "field_ouyqwpgk4y3bb",
-                        "label": "Gallery",
-                        "name": "gallery",
-                        "aria-label": "",
-                        "type": "gallery",
+                        "type": "image",
                         "post_type": "",
                         "instructions": "",
                         "required": 0,
@@ -103,9 +191,28 @@
                         "ui": 0,
                         "default_value": 0,
                         "return_format": "array"
+                    },
+                    {
+                        "key": "field_8xovejrplhy6q",
+                        "label": "Description",
+                        "name": "description",
+                        "aria-label": "",
+                        "type": "textarea",
+                        "post_type": "",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 100,
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "ui": 0,
+                        "default_value": 0
                     }
                 ],
-                "menu_order": 1
+                "menu_order": 3
             }
         ],
         "location": [
